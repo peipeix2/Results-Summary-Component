@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.final-result-container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(252, 100%, 67%);
+}
+
+.final-score {
+  display: flex;
+  flex-direction: column;
+}
