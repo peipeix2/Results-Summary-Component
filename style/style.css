@@ -10,7 +10,28 @@
   border-bottom-left-radius: 32px;
 }
 
+.final-result-container h3 {
+  text-align: center;
+  margin-top: 24px;
+}
+
 .final-score {
   display: flex;
   flex-direction: column;
+  width: 140px;
+  height: 140px;
+  margin: 12px auto;
+  border-radius: 50%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  text-align: center;
+}
+
+.performance-feedback {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.performance-feedback h2 {
+  margin-bottom: 8px;
 }
