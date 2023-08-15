@@ -5,7 +5,9 @@
 .final-result-container {
   display: flex;
   flex-direction: column;
-  background-color: hsl(252, 100%, 67%);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-bottom-right-radius: 32px;
+  border-bottom-left-radius: 32px;
 }
 
 .final-score {
