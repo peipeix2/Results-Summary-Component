@@ -35,3 +35,22 @@
 .performance-feedback h2 {
   margin-bottom: 8px;
 }
+
+.score-breakdown {
+  margin: 24px 30px;
+  text-align: center;
+}
+
+.score-breakdown h3 {
+  text-align: start;
+  margin-bottom: 24px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marks {
+  display: flex;
+}
