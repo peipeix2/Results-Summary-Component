@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+
+h1, h2, h3, p {
+  font-family: Hanken Grotesk;
+}
+
 .final-result-container {
   display: flex;
   flex-direction: column;
@@ -11,8 +20,11 @@
 }
 
 .final-result-container h3 {
+  font-weight: 500;
+  font-size: 18px;
   text-align: center;
   margin-top: 24px;
+  color: #CAC9FF;
 }
 
 .final-score {
@@ -22,18 +34,48 @@
   height: 140px;
   margin: 12px auto;
   border-radius: 50%;
-  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  background-image: linear-gradient(hsla(256, 71%, 42%, 100%), hsla(241, 71%, 46%, 0%));
   text-align: center;
+  align-items: center;
+}
+
+.final-score h1 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 72px;
+  color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.final-score p {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: top;
+  color: #CAC9FF;
+  opacity: 0.5168;
+  margin: 0;
 }
 
 .performance-feedback {
+  padding: 0 50px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 24px;
 }
 
 .performance-feedback h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
   margin-bottom: 8px;
+}
+
+.performance-feedback p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #CAC9FF;
+  line-height: 1.25em;
 }
 
 .score-breakdown {
@@ -42,6 +84,9 @@
 }
 
 .score-breakdown h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #303B59;
   text-align: start;
   margin-bottom: 24px;
 }
@@ -74,8 +119,43 @@
   margin-right: 1rem;
 }
 
+.score {
+  font-weight: bold;
+  font-size: 16px;
+  color: #303B59;
+  margin-right: 0.5em
+}
+
+.full-score {
+  font-weight: bold;
+  font-size: 16px;
+  color: #303B59;
+  opacity: 0.5;
+}
+
 .test-category {
   display: flex;
+}
+
+.test-category p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.reaction-title {
+  color: #FF5555;
+}
+
+.memory-title {
+  color: #FFB21E;
+}
+
+.verbal-title {
+  color: #00BB8F;
+}
+
+.visual-title {
+  color: #1125D6;
 }
 
 .category-icon {
@@ -91,6 +171,12 @@
   align-items: center;
   justify-content: center;
   background-color: hsl(224, 30%, 27%);
+}
+
+.button h2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
 }
 
 .button:hover {
