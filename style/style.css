@@ -49,8 +49,36 @@
 .row {
   display: flex;
   justify-content: space-between;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.reaction-background {
+  background-color: hsl(0, 100%, 95%);
+}
+
+.memory-background {
+  background-color: hsl(39, 100%, 95%);
+}
+
+.verbal-background {
+  background-color: hsl(166, 100%, 95%);
+}
+
+.visual-background {
+  background-color: hsl(234, 85%, 95%);
 }
 
 .marks {
   display: flex;
+  margin-right: 1rem;
+}
+
+.test-category {
+  display: flex;
+}
+
+.category-icon {
+  width: 20px;
+  margin: 1rem;
 }
