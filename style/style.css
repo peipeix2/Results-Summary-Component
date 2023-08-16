@@ -7,7 +7,10 @@
   src: url(HankenGrotesk-VariableFont_wght.ttf);
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   font-family: Hanken Grotesk;
 }
 
@@ -181,4 +184,97 @@ h1, h2, h3, p {
 
 .button:hover {
   background-image: linear-gradient(#7755FF, #2F2CE9);
+}
+
+/* Media Query
+   ========================================================================== */
+
+@media screen and (min-width: 736px) {
+  body {
+    background-color: #ECF2FF;
+  }
+
+  .container {
+    display: flex;
+    width: 736px;
+    height: 512px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    background-color: white;
+    border: 0.5px solid #979797;
+    border-radius: 32px;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  }
+
+  .final-result-container {
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    padding-top: 50px;
+  }
+
+  .final-result-container h3 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 24px;
+  }
+
+  .final-score {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+  }
+
+  .final-score h1 {
+    font-size: 72px;
+    margin-top: 0.7em;
+    margin-bottom: 0.1em;
+  }
+
+  .final-score p {
+    font-size: 18px;
+  }
+
+  .performance-feedback h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  .performance-feedback p {
+    font-size: 18px
+  }
+
+  .score-breakdown {
+    flex: 1;
+    height: 100%;
+    padding-top: 50px;
+    margin: 24px 40px;
+  }
+
+  .score-breakdown h3 {
+    margin-top: 0px;
+    margin-bottom: 28px;
+    font-size: 24px;
+  }
+
+  .test-category p {
+    font-size: 18px;
+  }
+
+  .marks p {
+    font-size: 18px;
+  }
+
+  .button {
+    margin-top: 41px;
+  }
+
+  .button-instruction {
+    font-size: 18px;
+  }
+
+  .attribution {
+    margin-top: 50px;
+  }
 }
