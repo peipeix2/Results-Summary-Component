@@ -3,11 +3,8 @@
 }
 
 @font-face {
-  font-family: 'hanken_groteskregular';
-  src: url('../webfontkit-20230816-224300/hankengrotesk-variablefont_wght-webfont.woff2') format('woff2'),
-    url('../webfontkit-20230816-224300/hankengrotesk-variablefont_wght-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Hanken Grotesk';
+  src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
 
 }
 
