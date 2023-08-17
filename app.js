@@ -9,7 +9,7 @@ axios.get('data.json')
       scoreHTML += `
         <div class="${item.category.toLowerCase()}-background row">
         <div class="test-category">
-          <img class="category-icon" src ="${item.icon}">
+          <img class="category-icon" src ="${item.icon}" alt="icon-category-icon">
           <p class="${item.category.toLowerCase()}-title">${item.category}</p>
         </div>
         <div class="marks">
